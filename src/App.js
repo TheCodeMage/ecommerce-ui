@@ -8,13 +8,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="font-sans">
-      <Header />
-      <HeroBanner />
+      {/* 💬 Main layout wrapper. Sets the font. */}
+      <Header />              {/* 💬 Top navigation bar */}
+      <HeroBanner />          {/* 💬 Promotional section with call-to-action */}
       <main className="p-4 max-w-6xl mx-auto">
-        <ProductGrid />
+        <ProductGrid />       {/* 💬 Display grid of products */}
       </main>
-      <CallToAction />
-      <Footer />
+      <CallToAction />        {/* 💬 Email subscription promo */}
+      <Footer />              {/* 💬 Bottom site information */}
     </div>
   );
 }

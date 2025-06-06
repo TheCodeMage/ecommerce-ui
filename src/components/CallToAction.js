@@ -15,3 +15,5 @@ export default function CallToAction() {
         </section>
     );
 }
+
+// 💡 Consider integrating with an actual email service (e.g., Mailchimp or backend API).

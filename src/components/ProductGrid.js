@@ -28,3 +28,12 @@ export default function ProductGrid() {
         </section>
     );
 }
+
+// 💡 Future Enhancements:
+
+//     Add real product images
+
+//     Load data from props or API
+
+//     Extract product card to its own component (ProductCard.js)
+

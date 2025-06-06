@@ -16,3 +16,5 @@ export default function Footer() {
         </footer>
     );
 }
+
+// 💡 Add links to actual pages, maybe use icons or columns for better layout.

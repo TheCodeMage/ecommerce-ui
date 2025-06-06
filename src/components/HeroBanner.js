@@ -7,7 +7,9 @@ export default function HeroBanner() {
             <p className="text-gray-700 mb-4">Up to 50% off on selected items</p>
             <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
                 Shop Now
-            </button>
+            </button> {/* 💬 Call to action button */}
         </section>
     );
 }
+
+// 💡 Could include background image or animation to enhance visual appeal.
